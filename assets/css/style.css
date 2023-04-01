@@ -28,7 +28,8 @@
   --manatee: hsla(219, 10%, 62%, 1);
   --black-coral: hsla(220, 12%, 43%, 1);
   --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
-  --cinnamon-satin: hsla(344, 53%, 62%, 1);
+  --cinnamon-satin: rgb(56, 185, 52);
+  --animo: rgb(31, 135, 220);
   --raisin-black: hsla(216, 14%, 14%, 1);
   --raisin-black_a6: hsla(216, 14%, 14%, 0.06);
   --gunmetal: hsla(214, 15%, 21%, 1);
@@ -144,14 +145,13 @@ body {
 
 body.nav-active { overflow: hidden; }
 
-::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar { width: 5px; }
 
 ::-webkit-scrollbar-track { background-color: hsl(0, 0%, 98%); }
 
 ::-webkit-scrollbar-thumb { background-color: hsl(0, 0%, 80%); }
 
 ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
-
 
 
 
@@ -196,10 +196,10 @@ body.nav-active { overflow: hidden; }
 .h4 { font-size: var(--fs-4); }
 
 .btn {
-  color: var(--cinnamon-satin);
+  color: var(--animo);
   font-size: var(--fs-6);
   font-weight: var(--fw-700);
-  border: 2px solid var(--cinnamon-satin);
+  border: 2px solid var(--animo);
   max-width: max-content;
   padding: 12px 28px;
   border-radius: var(--radius-pill);
@@ -514,7 +514,7 @@ body.nav-active { overflow: hidden; }
 .contact { padding-block-end: 0; }
 
 .contact-card {
-  background-color: var(--snow);
+  background-color: var(--cultured);
   padding: 32px;
   border-radius: var(--radius-8);
   display: grid;
